@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 const Registration = () => {
     return <div>
-       Registration
+       Registration branch Anton
     </div>
 }
 
