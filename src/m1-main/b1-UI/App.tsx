@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter} from "react-router-dom";
+import {Routes} from "./routes/Routes";
+import Header from './header/Header';
 
 
 
@@ -7,13 +10,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        {/*hr,prov*/}
-
-          <>
-
+        <BrowserRouter>
+                < Header />
+                <Routes />
               {/*<Main/>*/}
+        </BrowserRouter>
 
-          </>
     </div>
   );
 }
